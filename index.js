@@ -7,11 +7,11 @@ app.use(express.static("public"));
 
 // Project components' ids and urls object
 const healthCheckEndpoints = {
-  mockServer: "https://maxsoft-mock-server-demo.web.app/say/hello?name=Osanda",
-  user: "https://maxsoft-mock-server-demo.web.app/users/1",
-  career: "https://maxsoft-mock-server-demo.web.app/careers",
-  document: "https://maxsoft-mock-server-demo.web.app/photos/29647",
-  barcode: "https://maxsoft-mock-server-demo.com/barcode"
+  n_authentication: "https://oneapp.ncinga.com/auth_services",
+  n_flink_provision: "https://oneapp.ncinga.com/flink_provision_services/",
+  n_reports_backend: "http://nqa-n-reports-backend.strawmine.com/blz/nsp_topares/v2/search",
+  n_workshift_management: "http://nalpha-n-workshift-management.strawmine.com/shift_services/v2",
+  n_tags_management: "https://nqa-n-order-api-gateway.strawmine.com/blz/rest_svc/post_service"
 };
 
 // Hosted at http://localhost:5000
